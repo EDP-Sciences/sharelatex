@@ -10,7 +10,7 @@ async = require "async"
 
 SERVICES = [{
 	name: "web"
-	repo: "https://github.com/sharelatex/web-sharelatex.git"
+	repo: "https://github.com/EDP-Sciences/web-sharelatex.git"
 	version: "master"
 }, {
 	name: "real-time"
@@ -22,7 +22,7 @@ SERVICES = [{
 	version: "master"
 }, {
 	name: "clsi"
-	repo: "https://github.com/sharelatex/clsi-sharelatex.git"
+	repo: "https://github.com/EDP-Sciences/clsi-sharelatex.git"
 	version: "master"
 }, {
 	name: "filestore"
