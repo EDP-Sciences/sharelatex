@@ -15,13 +15,18 @@ We have detailed installation instructions in our wiki:
 
 **If you have any problems, have a look at our page of [Frequent Problems and Questions](https://github.com/sharelatex/sharelatex/wiki/FAQ).**
 
+Upgrading
+---------
+
+If you are upgrading from a previous version of ShareLaTeX, please see the [Release Notes section on the Wiki] (https://github.com/sharelatex/sharelatex/wiki/Home) for all of the versions between your current version and the version you are upgrading to.
+
 
 Dependencies
 ------------
 
 ShareLaTeX should run on OS X and Linux. You need:
 
-* [Node.js](http://nodejs.org/) 0.10 or greater. We recommend that you use [nvm](https://github.com/creationix/nvm) to install it.
+* [Node.js](http://nodejs.org/) 0.10.x. We recommend that you use [nvm](https://github.com/creationix/nvm) to install it.
 * The [grunt](http://gruntjs.com/) command line tools (Run `npm install -g grunt-cli` to install them)
 * A local instance of [Redis](http://redis.io/topics/quickstart) (version 2.6.12 or later) and [MongoDB](http://docs.mongodb.org/manual/installation/) running on their standard ports.
 * [TeXLive](https://www.tug.org/texlive/) 2013 or later with the `latexmk` program installed.
