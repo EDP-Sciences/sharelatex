@@ -12,6 +12,11 @@ tags
 chat
 spelling
 real-time
+tpds
+tpdsworker
+submit
+references
+notifications
 migrations/*.js
 
 data
